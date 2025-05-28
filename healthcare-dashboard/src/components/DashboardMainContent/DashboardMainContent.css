@@ -8,7 +8,6 @@
 
 .dashboard-top-row > div,
 .dashboard-bottom-row > div {
-  /* Flex column to stretch children inside */
   display: flex;
   flex-direction: column;
   justify-content: stretch;

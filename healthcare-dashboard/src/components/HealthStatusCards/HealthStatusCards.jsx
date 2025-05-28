@@ -7,21 +7,21 @@ const cardsData = [
     value: "date-01-05-2025",
     icon: "🫁",
     progress: 72,
-    gradient: "linear-gradient(90deg, #667eea, #764ba2)" // Blue → Purple
+    gradient: "linear-gradient(90deg, #667eea, #764ba2)" 
   },
   {
     title: "Teeth",
     value: "date-10-05-2025",
     icon: "🦷",
     progress: 50,
-    gradient: "linear-gradient(90deg, #6aa84f, #6aa84f)" // Green solid
+    gradient: "linear-gradient(90deg, #6aa84f, #6aa84f)" 
   },
   {
     title: "Bone",
     value: "date-25-05-2025",
     icon: "🦴",
     progress: 90,
-    gradient: "linear-gradient(90deg, #ff6a00, #ee0979)" // Orange → Pink
+    gradient: "linear-gradient(90deg, #ff6a00, #ee0979)" 
   }
 ];
 

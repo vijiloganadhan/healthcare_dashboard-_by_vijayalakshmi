@@ -50,7 +50,7 @@
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Bar 0 (darker blue with subtle gradient and glow) */
+
 .bar-0 {
   background: linear-gradient(145deg, #2b6cb0, #2c7be5);
   box-shadow:
@@ -58,7 +58,6 @@
     0 4px 8px rgba(43, 108, 176, 0.7);
 }
 
-/* Bar 1 (lighter blue with gradient and glow) */
 .bar-1 {
   background: linear-gradient(145deg, #4299e1, #63b3ed);
   box-shadow:
@@ -72,7 +71,7 @@
   user-select: none;
 }
 
-/* Responsive: smaller padding and margin on mobile */
+
 @media (max-width: 576px) {
   .activity-feed {
     padding: 0.75rem 1rem;

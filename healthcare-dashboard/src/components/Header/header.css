@@ -79,7 +79,7 @@
   cursor: pointer;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
@@ -103,7 +103,7 @@
   }
 
   .profile span {
-    display: none; /* Hide name on small screens */
+    display: none;
   }
 
   .add-button {

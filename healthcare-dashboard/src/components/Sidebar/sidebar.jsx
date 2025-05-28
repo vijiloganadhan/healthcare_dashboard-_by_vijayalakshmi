@@ -30,7 +30,7 @@ export default function Sidebar() {
 
   return (
     <>
-      {/* Toggle button visible only on small screens */}
+     
       <button
         className="sidebar-toggle-btn d-md-none"
         onClick={toggleSidebar}
@@ -52,7 +52,7 @@ export default function Sidebar() {
         </aside>
       </div>
 
-      {/* Overlay when sidebar is open */}
+     
       {isOpen && (
         <div
           className="sidebar-overlay d-md-none"

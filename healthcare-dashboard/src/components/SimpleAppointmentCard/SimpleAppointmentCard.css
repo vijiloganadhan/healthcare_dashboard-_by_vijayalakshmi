@@ -11,21 +11,21 @@
   max-width: 320px;
 }
 
-/* Title styling */
+
 .appointment-title {
   margin: 0;
   font-size: 1rem;
   color: #2c3e50;
 }
 
-/* Time styling */
+
 .appointment-time {
   margin: 6px 0 0;
   font-size: 0.9rem;
   color: #7f8c8d;
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .simple-appointment-card {
     max-width: 100%;
