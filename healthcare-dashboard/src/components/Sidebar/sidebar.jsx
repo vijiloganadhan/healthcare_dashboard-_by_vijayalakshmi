@@ -9,7 +9,7 @@ import {
   LifeBuoy,
   Settings
 } from 'lucide-react';
-import './Sidebar.css';
+import './sidebar.css';
 
 const navItems = [
   { icon: <Home />, label: 'Dashboard' },
