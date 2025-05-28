@@ -1,22 +1,53 @@
 .health-status-cards .card-status {
-  background: #fff;
-  border-radius: 8px;
-  transition: box-shadow 0.3s;
+  background: #ffffff;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
 }
 
 .health-status-cards .card-status:hover {
-  box-shadow: 0 4px 15px rgb(0 0 0 / 0.15);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.status-icon-wrapper {
+  background-color: #e6f0fa;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .status-icon {
+  font-size: 2.5rem; /* Icon size increased */
   color: #3182ce;
+  line-height: 1;
 }
 
 .status-title {
+  font-weight: 600;
+  font-size: 1rem;
   color: #4a5568;
+  margin-bottom: 4px;
 }
 
 .status-value {
+  font-size:15px;
   color: #2d3748;
-  font-weight: 700;
+}
+
+.progress-container {
+  background-color: #edf2f7;
+  border-radius: 999px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress-bar-gradient {
+  height: 100%;
+  transition: width 0.4s ease;
+  border-radius: 999px;
+  background-color: orange;
 }
