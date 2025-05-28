@@ -5,7 +5,7 @@ const AnatomySection = () => (
   <div className="anatomy-section">
     <h2>Anatomy</h2>
     <img
-      src="..\src\assets\anatomy.png"
+      src="https://ibb.co/1fqC3xJC"
       alt="Anatomy Illustration"
       className="anatomy-image"
     />
