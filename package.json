@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "react-scripts": "^5.0.1"
-  },
-  "devDependencies": {
+    "react-scripts": "^3.0.1",
     "vite": "^6.3.5"
   },
   "scripts": {
