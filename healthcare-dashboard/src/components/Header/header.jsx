@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './header.css';
 import { Search, Bell, Plus } from 'lucide-react';
 
 export default function Header() {
