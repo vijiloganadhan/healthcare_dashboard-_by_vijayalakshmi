@@ -1,0 +1,36 @@
+.upcoming-schedule {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+
+.upcoming-schedule h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.appointment-list {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.appointment-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.appointment-item:last-child {
+  border-bottom: none;
+}
+
+.patient-name {
+  font-weight: 600;
+}
+
+.appointment-reason {
+  font-size: 0.85rem;
+  color: #718096;
+}

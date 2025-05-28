@@ -1,0 +1,22 @@
+.health-status-cards .card-status {
+  background: #fff;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.health-status-cards .card-status:hover {
+  box-shadow: 0 4px 15px rgb(0 0 0 / 0.15);
+}
+
+.status-icon {
+  color: #3182ce;
+}
+
+.status-title {
+  color: #4a5568;
+}
+
+.status-value {
+  color: #2d3748;
+  font-weight: 700;
+}

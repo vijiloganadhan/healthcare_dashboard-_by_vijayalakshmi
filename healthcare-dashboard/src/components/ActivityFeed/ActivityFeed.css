@@ -1,0 +1,23 @@
+.activity-feed {
+  color: #2b6cb0;
+  height: 100%;
+}
+
+.day-column {
+  max-width: 40px;
+  min-width: 30px;
+}
+
+.bar {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .activity-chart {
+    height: 100px !important;
+  }
+  .day-column {
+    max-width: 25px;
+  }
+}
